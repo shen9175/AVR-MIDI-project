@@ -1,0 +1,11 @@
+
+######################################################
+#  			Downloading program to chip				 #
+######################################################
+
+objcopy -v -S -O ihex sdtest sdtest.hex
+
+sudo avrdude -v -y -p atmega644  -P /dev/ttyUSB0 -c stk500v2 -U flash:w:sdtest.hex:i 
+
+# Low fuse for E2 is for 8Mhz frequency
+#sudo avrdude -v -y -p atmega644  -P /dev/ttyUSB0 -c stk500v2 -U lfuse:w:0xE2:m 
