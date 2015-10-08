@@ -24,7 +24,7 @@ No instrument timbre are implement in this project.
 The specific features and functions are follows:
 
 Implement LCD drivers
-Implement SD drivers
+Implement SD card reader drivers
 Implement FAT32 file system and write and load functions
 Implement general MIDI 1.0 encoder and decoder functions
 Implement speaker functions.
@@ -34,4 +34,12 @@ Implement multi-level menus with button control traverse user-interface.
 Implement display directories/file, play MIDI file, delete MIDI file
 Implement pause, play, switch channel of MIDI file.
 Implement recording MIDI from MIDI keyboard and the saved MIDI file can be played on Computer with pianno timbre.
+
+The system is built on  AVR-GCC (Ubuntu cross-compiler avr-g++ -v4.8.2)
+The ATmega644 is set as 8Mhz frequency.
+
+The SD card driver and FAT32 filesystem are reference the DharmaniTech's SD card drivers and FAT32 implementaion on ATmega32
+http://www.dharmanitech.com/2009/01/sd-card-interfacing-with-atmega8-fat32.html
+
+Sanqing Yuan is the co-author of this project.
 
