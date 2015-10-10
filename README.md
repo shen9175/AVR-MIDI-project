@@ -1,6 +1,8 @@
 # AVR-MIDI-project
 AVR ATMega644 chip wih MIDI Recorder and Player
 
+watch the demo video on youtube: https://youtu.be/2f1lXY0KVbk
+
 The system is built on ATMega644 micro-controlled.
 
 The board with ATMega644 CPU(micro-controller) with Atmel AVR ISA.
@@ -41,3 +43,4 @@ http://www.dharmanitech.com/2009/01/sd-card-interfacing-with-atmega8-fat32.html
 
 Sanqing Yuan is the co-author of this project.
 
+watch the demo video on youtube: https://youtu.be/2f1lXY0KVbk
